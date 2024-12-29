@@ -1,0 +1,54 @@
+ body { 
+      font-family: cursive; 
+      height: 100vh; 
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+      background-image: url("https://images.pexels.com/photos/1178683/pexels-photo-1178683.jpeg?auto=compress&cs=tinysrgb&w=600"); 
+      background-repeat: no-repeat; 
+      background-size: cover; 
+      background-position: center center; 
+    } 
+    .container { 
+      text-align: center; 
+      background: rgba(0, 0, 0, 0.5); 
+      padding: 20px; 
+      border-radius: 8px; 
+      width: 90%; 
+      max-width: 500px; 
+      box-shadow: 0 4px 10px rgba(245, 244, 244, 0.3); 
+    } 
+    #timer { 
+      font-size: 50px; 
+      padding: 10px 20px; 
+      color: white; 
+    } 
+    input { 
+      padding: 5px; 
+      border: 1px solid #ccc; 
+      border-radius: 5px; 
+      font-size: 35px; 
+    } 
+    button { 
+      font-size: 25px; 
+      padding: 10px 20px; 
+      margin-left: 10px; 
+      background-color: #007bff; 
+      color: rgb(253, 253, 253); 
+      border: none; 
+      border-radius: 5px; 
+      cursor: pointer; 
+    } 
+    button:hover { 
+      background-color: darkblue; 
+    } 
+    label { 
+      font-size: 25px; 
+      color: white; 
+    } 
+    p { 
+      font-size: 50px; 
+      color: rgb(248, 245, 245); 
+      text-align: center; 
+      padding: 0%; 
+    } 
